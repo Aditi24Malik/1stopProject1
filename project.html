@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Aditi, a Computer Engineering student currently studying in 3rd year.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="portfolio-item">
+            <img src="project1.jpg" alt="Project 1">
+            <p>Project 1<br>
+                This movie ranking project is a simple HTML-based webpage showcasing a list of favorite movies ranked by personal preference. 
+                The page includes headings and descriptive paragraphs for each film, creating a visually organized display. 
+                The primary focus is on presenting a list format, allowing the author to share opinions and brief descriptions for each movie. 
+                It is an introductory exercise in web development, aimed at practicing semantic HTML and content organization.
+            </p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project2.jpg" alt="Project 2">
+            <p>Project 2<br>
+                This birthday invitation project is a fun and visually engaging web page created using HTML. 
+                It features a headline announcing the birthday celebration, details of the event date (24th June), 
+                and an image of a birthday cake to set a festive tone. 
+                The invite includes a checklist of items guests should bring—balloons, cake, 
+                and an appetite—as well as an embedded link to a Google Maps location for easy navigation to the party venue. 
+                The project demonstrates simple web development skills, combining basic elements like headings, paragraphs, lists, 
+                images, and hyperlinks to create an inviting and informative event page.
+            </p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project3.jpg" alt="Project 3">
+            <p>Project 3<br>
+                This project is a simple motivational webpage designed to inspire and encourage users. 
+                It features a clean, aesthetic design with an embedded motivational image and a powerful message. 
+                The HTML structure includes an image with a positive reminder and a motivational quote beneath it. 
+                The use of an external CSS file (style.css) ensures that the design elements like layout and typography are styled properly, 
+                while the Libre Baskerville font adds a classic touch to the text. 
+                This project serves as a quick reminder for self-belief and perseverance, encapsulating the idea that effort and 
+                sacrifice are key to achieving one's goals.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Aditi]. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
